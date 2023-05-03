@@ -10,6 +10,8 @@ Gold: Create an aggregated view with the number of stores by type and location
 
 ## Architecture
 
+![breweries_arq](https://user-images.githubusercontent.com/82526635/236075843-477c0fb0-069c-4e64-a8f5-e0cb11b2b65a.PNG)
+
 1 - In your Microsoft Azure account, create a resource group containing the following resources:
 Azure Data Lake Storage: as datalake
 Azure Data Factory: as the project orchestrator
@@ -44,3 +46,4 @@ https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-facto
 https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-databricks-notebook
 
 10 - You can check that the data has been saved in each respective directory in Azure Data Lake Storage.
+
