@@ -7,6 +7,9 @@ Bronze layer: Raw data/uncurated data usually persists in its native format (but
 Silver: Transformed into a columnar storage format, such as Parquet or Delta, partitioned by brewery location
 Gold: Create an aggregated view with the number of stores by type and location
 
+
+## Architecture
+
 1 - In your Microsoft Azure account, create a resource group containing the following resources:
 Azure Data Lake Storage: as datalake
 Azure Data Factory: as the project orchestrator
