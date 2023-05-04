@@ -63,10 +63,20 @@ https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-databri
 ![dir](https://user-images.githubusercontent.com/82526635/236102854-5bc3a135-979e-4cb0-8fdf-b40b36c41067.PNG)
 
 
+You can check the code by clicking [here](https://github.com/kh4r00n/breweries_bees/tree/main/bees_azure_databricks_notebooks).
+
 
 
 ## Solution 2 - Colab and Cloud Storage
 ### Architecture
 ![breweries_arq_3](https://user-images.githubusercontent.com/82526635/236099995-fed0d510-fce4-4bb8-b913-4829c022c291.PNG)
 
+
+1 - Create a Bucket in Cloud Storage by following the steps described in Google's official documentation: https://cloud.google.com/storage/docs/creating-buckets. It's important to create a directory for each layer of the data pipeline (bronze, silver, and gold). To create directories, you can follow the official Google documentation: https://cloud.google.com/storage/docs/creating-folders.
+
+2 - Create and configure a service account with permissions for Cloud Storage, following the instructions described in Google's official documentation: https://cloud.google.com/storage/docs/access-control/iam-roles. Be sure to grant the necessary permissions for the service account to access the bucket created in step 1.
+
+3 - Create and run Python/PySpark notebooks in the Google Colab environment by following the instructions described in Google's official documentation: https://colab.research.google.com/notebooks/intro.ipynb. Remember that you need to install the PySpark library and configure the credentials of the service account created in step 2 to access Cloud Storage. For this, you can follow Google's official documentation: https://cloud.google.com/dataproc/docs/tutorials/jupyter-notebook.
+
+You can check the code by clicking [here](https://github.com/kh4r00n/breweries_bees/tree/main/bees_google_colab).
 
