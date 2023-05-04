@@ -14,11 +14,17 @@ Gold: Create an aggregated view with the number of stores by type and location
 ![breweries_arq](https://user-images.githubusercontent.com/82526635/236075843-477c0fb0-069c-4e64-a8f5-e0cb11b2b65a.PNG)
 
 1 - In your Microsoft Azure account, create a resource group containing the following resources:
+
 Azure Data Lake Storage: as datalake
+
 Azure Data Factory: as the project orchestrator
+
 Azure Databricks: as the development environment/platform for Python/PySpark code
+
 Azure Key Vault: for secure storage of passwords/credentials, connection strings through "secrets"
+
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
+
 
 2 - Create a container in Azure Data Lake Storage with directories bronze, silver, and gold for storing data in their respective layers.
 https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account
@@ -36,7 +42,7 @@ https://docs.databricks.com/dev-tools/api/latest/authentication.html#generate-a-
 6 - Make a mount point to access the directories in your container on Azure Data Lake Storage.
 https://docs.databricks.com/data/data-sources/azure/azure-datalake-gen2.html#mount-azure-data-lake-gen2
 
-7 - 3 notebooks using Python and PySpark to perform the required transformations requested by the case, each notebook referring to a layer: bronze, silver, gold.
+7 - Create 3 notebooks using Python and PySpark to perform the required transformations requested by the case, each notebook referring to a layer: bronze, silver, gold.
 https://docs.databricks.com/notebooks/notebooks-use-case-data-transformation.html
 
 8 - Access the Azure Data Factory instance, create a pipeline, in the activities panel, expand the databricks option, select notebook, and drag 3 to the plan. Configure linked services for Azure Key Vault and Azure Databricks, configure the notebook paths, and link the sequential execution of notebooks in case of successful execution.
