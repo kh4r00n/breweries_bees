@@ -8,7 +8,8 @@ Silver: Transformed into a columnar storage format, such as Parquet or Delta, pa
 Gold: Create an aggregated view with the number of stores by type and location
 
 
-## Architecture
+## Solution 1 - Azure Stack 
+### Architecture
 
 ![breweries_arq](https://user-images.githubusercontent.com/82526635/236075843-477c0fb0-069c-4e64-a8f5-e0cb11b2b65a.PNG)
 
@@ -46,4 +47,11 @@ https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-facto
 https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-databricks-notebook
 
 10 - You can check that the data has been saved in each respective directory in Azure Data Lake Storage.
+
+
+
+## Solution 2 - Google Cloud: Cloud Storage, Apache Beam and Dataflow
+
+
+## Solution 3 - Colab and Cloud Storage
 
