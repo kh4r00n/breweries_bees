@@ -51,7 +51,13 @@ https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-databri
 
 
 ## Solution 2 - Google Cloud: Cloud Storage, Apache Beam and Dataflow
+### Architecture
+![breweries_arq_2](https://user-images.githubusercontent.com/82526635/236099887-47497eb7-f96e-4c5d-8967-22acbf8bb9ba.PNG)
+
 
 
 ## Solution 3 - Colab and Cloud Storage
+### Architecture
+![breweries_arq_3](https://user-images.githubusercontent.com/82526635/236099995-fed0d510-fce4-4bb8-b913-4829c022c291.PNG)
+
 
