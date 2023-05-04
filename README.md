@@ -26,6 +26,9 @@ Azure Key Vault: for secure storage of passwords/credentials, connection strings
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
 
 
+![resource_group](https://user-images.githubusercontent.com/82526635/236101832-68028dd3-7c83-43df-914d-91e8f96a3d47.PNG)
+
+
 2 - Create a container in Azure Data Lake Storage with directories bronze, silver, and gold for storing data in their respective layers.
 https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account
 
@@ -51,6 +54,9 @@ https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-facto
 9 - Validate the pipeline, save, and debug.
 https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal
 https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-databricks-notebook
+
+![pipeline_adf](https://user-images.githubusercontent.com/82526635/236101950-c00d3195-fab5-4509-a895-b023533a9483.jpg)
+
 
 10 - You can check that the data has been saved in each respective directory in Azure Data Lake Storage.
 
