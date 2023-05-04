@@ -60,6 +60,8 @@ https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-databri
 
 10 - You can check that the data has been saved in each respective directory in Azure Data Lake Storage.
 
+![dir](https://user-images.githubusercontent.com/82526635/236102854-5bc3a135-979e-4cb0-8fdf-b40b36c41067.PNG)
+
 
 
 ## Solution 2 - Google Cloud: Cloud Storage, Apache Beam and Dataflow
